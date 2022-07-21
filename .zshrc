@@ -101,7 +101,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias workenv="cd ~/badger;pyenv shell 3.10.4;pipenv shell"
 alias tgco="~/.scripts/gco_with_toggl.sh"
-alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 
 export PATH="$HOME/.pyenv/bin:$PATH"
