@@ -102,12 +102,11 @@ source $ZSH/oh-my-zsh.sh
 alias workenv="cd ~/badger;pyenv shell 3.10.4;pipenv shell"
 alias tgco="~/.scripts/gco_with_toggl.sh"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-
+alias i="sudo pacman -Syu --noconfirm"
 
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
-
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

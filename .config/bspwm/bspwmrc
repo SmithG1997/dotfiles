@@ -3,18 +3,6 @@
 pgrep sxhkd > /dev/null || sxhkd &
 setxkbmap hu
 ~/.fehbg
-~/.config/polybar/launch.sh
-
-picom &
-blueman-applet &
-nm-applet &
-dunst &
-deluge-gtk &
-guake &
-xfce4-power-manager &
-flameshot &
-xfce4-clipman &
-volumeicon &
 
 bspc monitor -d I II III IV V VI VII VIII IX deluge
 
@@ -60,3 +48,6 @@ bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 bspc rule -a Deluge desktop='^9'
 bspc rule -a gedit state=floating
+
+~/.config/polybar/launch.sh
+
