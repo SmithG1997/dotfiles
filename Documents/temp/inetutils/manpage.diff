@@ -1,0 +1,14 @@
+diff --git a/hostname.1 b/hostname.1
+index 346c40b..8ba367b 100644
+--- a/hostname.1
++++ b/hostname.1
+@@ -105,8 +105,7 @@ command (see
+ .B THE FQDN
+ below).
+ .LP
+-The host name is usually set once at system startup in
+-.I /etc/init.d/hostname.sh
++The host name is usually set once at system startup
+ (normally by reading the contents of a file which contains
+ the host name, e.g.
+ .IR /etc/hostname ).

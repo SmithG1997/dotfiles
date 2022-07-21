@@ -1,0 +1,28 @@
+pkgname=hostname
+pkgver=3.23
+pkgrel=1
+pkgdesc="utility to set/show the host name or domain name"
+arch=('x86_64')
+url="https://tracker.debian.org/pkg/hostname"
+license=('GPL')
+depends=('glibc')
+conflicts=('inetutils')
+source=("http://deb.debian.org/debian/pool/main/h/$pkgname/$pkgname"_"$pkgver.tar.gz"
+        'manpage.diff')
+sha256sums=('bc6d1954b22849869ff8b2a602e39f08b1702f686d4b58dd7927cdeb5b4876ef'
+            '7e86e5aafa3b42b6a4ec866c8720929f6bdfdd922389f957b4639b698707a53e')
+
+prepare() {
+  cd $pkgname
+  patch -p1 -i ../manpage.diff
+}
+
+build() {
+  cd $pkgname
+  make
+}
+
+package() {
+  cd $pkgname
+  make BASEDIR="$pkgdir" BINDIR=/usr/bin install
+}
