@@ -4,7 +4,7 @@ pgrep sxhkd > /dev/null || sxhkd &
 setxkbmap hu
 ~/.fehbg
 
-bspc monitor -d I II III IV V VI VII VIII IX deluge
+bspc monitor eDP-1 -d I II III IV V VI VII VIII IX deluge
 
 bspc config border_width                  3
 bspc config window_gap                    10
@@ -49,5 +49,5 @@ bspc rule -a Screenkey manage=off
 bspc rule -a Deluge desktop='^9'
 bspc rule -a gedit state=floating
 
-~/.config/polybar/launch.sh
+~/.config/polybar/launch.sh &
 

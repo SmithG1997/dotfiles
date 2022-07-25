@@ -1,0 +1,1 @@
+exec ~/.scripts/startup.sh

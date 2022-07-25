@@ -8,5 +8,7 @@ blueman-applet &
 flameshot &
 xfce4-clipman &
 xfce4-power-manager &
-pa-applet
+pa-applet &
 deluge-gtk &
+
+bspwm
