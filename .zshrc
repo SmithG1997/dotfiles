@@ -100,7 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias workenv="cd ~/badger;pyenv shell 3.10.4;pipenv shell"
-alias tgco="~/.scripts/gco_with_toggl.sh"
+alias tgco="~/.scripts/git_checkout_with_toggle.sh"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 
