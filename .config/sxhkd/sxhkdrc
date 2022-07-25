@@ -8,7 +8,7 @@ super + Return
 
 # program launcher
 super + @space
-	dmenu_run
+	rofi -show run
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -16,6 +16,10 @@ super + Escape
 
 super + b
 	brave
+super + p
+	pavucontrol
+super + shift + b
+	blueman-manager
 #
 # bspwm hotkeys
 #
