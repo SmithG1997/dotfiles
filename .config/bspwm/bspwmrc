@@ -5,9 +5,9 @@ setxkbmap hu
 ~/.fehbg
 ~/.config/polybar/launch.sh
 
-bspc monitor eDP1 -d 1 2 3 
-bspc monitor DP2-2 -d 4 5 6 
-bspc monitor DP2-3 -d 7 8 9
+bspc monitor eDP1 -d 1 2 3 4 5 6 7 8 9 0 
+#bspc monitor DP2-2 -d 4 5 6 
+#bspc monitor DP2-3 -d 7 8 9
 
 bspc config border_width                  3
 bspc config window_gap                    10
