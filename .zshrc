@@ -102,7 +102,7 @@ source $ZSH/oh-my-zsh.sh
 alias workenv="cd ~/badger;pyenv shell 3.10.4;pipenv shell"
 alias tgco="~/.scripts/git_checkout_with_toggle.sh"
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-
+alias i="sudo pacman -S"
 
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
