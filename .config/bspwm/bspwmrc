@@ -3,7 +3,6 @@
 pgrep sxhkd > /dev/null || sxhkd &
 setxkbmap hu
 ~/.fehbg
-~/.config/polybar/launch.sh
 
 bspc monitor eDP-1 -d 1 2 3 4 5 6 7 8 9 0 
 #bspc monitor DP2-2 -d 4 5 6 
@@ -56,4 +55,6 @@ bspc rule -a Pavucontrol state=floating
 bspc rule -a pavucontrol state=floating
 bspc rule -a Blueman-manager state=floating
 bspc rule -a blueman-manager state=floating
+
+~/.config/polybar/launch.sh
 
