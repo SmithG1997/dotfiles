@@ -1,1 +1,5 @@
-universal bspwmrc
+universal bspwmrc with regards to screens
+volume, media play buttons
+autoarrange windows when out of docker
+include guake config
+dotfiles aliases
