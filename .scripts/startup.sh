@@ -9,3 +9,4 @@ guake &
 xfce4-power-manager &
 flameshot &
 volumeicon &
+deluge-gtk &
