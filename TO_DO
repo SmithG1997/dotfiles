@@ -3,3 +3,4 @@ volume, media play buttons
 autoarrange windows when out of docker
 include guake config
 dotfiles aliases
+startwork alias for slack, gitlab etc.
